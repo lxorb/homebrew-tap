@@ -1,8 +1,8 @@
 cask "orden" do
-  version "0.14.0"
-  sha256 "896e77c7eaa31fc6cad668132f1bb0663f8756ae67d5de8490fc659152b7260b"
+  version "0.15.0"
+  sha256 "065e28ad689b202670fdc20ff4a7cb70ad327d5cf81a061cc8c2e48cd2d644e5"
 
-  url "https://github.com/lxorb/orden/releases/download/v#{version}/Nib-#{version}-macos-universal.dmg",
+  url "https://github.com/lxorb/orden/releases/download/v#{version}/Orden-#{version}-macos-universal.dmg",
       verified: "github.com/lxorb/orden/"
   name "Orden"
   name "nibeditor"
