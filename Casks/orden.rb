@@ -1,6 +1,6 @@
 cask "orden" do
-  version "0.20.0"
-  sha256 "b1ff4100672e2771507f3d3a872202a2a0cfe7c531e6555f343f9124162a51f1"
+  version "0.21.0"
+  sha256 "25ee0e6d2ab8229006c0375d0d682d7b207b9cb235cf42049a8743755d4baf27"
 
   url "https://github.com/lxorb/orden/releases/download/v#{version}/Orden-#{version}-macos-universal.dmg",
       verified: "github.com/lxorb/orden/"
@@ -18,15 +18,15 @@ cask "orden" do
 
   app "Orden.app"
 
-  uninstall quit: "ch.emilvinu.nib"
+  uninstall quit: "so.orden.Orden"
 
   zap trash: [
-    "~/Library/Application Support/ch.emilvinu.nib",
-    "~/Library/Caches/ch.emilvinu.nib",
-    "~/Library/HTTPStorages/ch.emilvinu.nib",
-    "~/Library/Preferences/ch.emilvinu.nib.plist",
-    "~/Library/Saved Application State/ch.emilvinu.nib.savedState",
-    "~/Library/WebKit/ch.emilvinu.nib",
+    "~/Library/Application Support/so.orden.Orden",
+    "~/Library/Caches/so.orden.Orden",
+    "~/Library/HTTPStorages/so.orden.Orden",
+    "~/Library/Preferences/so.orden.Orden.plist",
+    "~/Library/Saved Application State/so.orden.Orden.savedState",
+    "~/Library/WebKit/so.orden.Orden",
   ]
 
   caveats <<~EOS
